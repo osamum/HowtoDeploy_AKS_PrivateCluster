@@ -1,3 +1,5 @@
+[\[**In English**\]](#build-an-azure-kubernetes-service-aks-cluster-isolated-within-an-azure-virtual-network)
+
 # Azure の仮想ネットワークに閉域化された Azure Kubernetes Service (AKS) を構築する
 
 Azure の仮想ネットワークのリソースにのみサービスを提供する Azure Kubernetes Service (AKS) クラスターを構築するための手順を説明します。
@@ -40,8 +42,6 @@ Azure の仮想ネットワークのリソースにのみサービスを提供�
 
 <br>
 
-\[In English\]
-
 # Build an Azure Kubernetes Service (AKS) Cluster Isolated within an Azure Virtual Network
 
 This guide explains how to build an Azure Kubernetes Service (AKS) cluster that provides services only to resources within an Azure virtual network.
@@ -68,7 +68,7 @@ Before following this guide, ensure that the following prerequisites are met:
 * You can access the Azure portal.
 * You have Azure Administrator or Contributor permissions.
 * A virtual network and Jump Box created by following the guide below are available.
-  - [Build a Jump Box Environment for Secure Access to an Isolated Azure Virtual Network](https://github.com/osamum/HowtoMake-Az-JumpBox-Env)
+  - [Build a Jump Box Environment for Secure Access to an Isolated Azure Virtual Network](https://github.com/osamum/HowtoMake-Az-JumpBox-Env#building-a-jump-box-environment-for-secure-access-to-an-isolated-azure-virtual-network)
 
 # Environment Built in This Guide
 
