@@ -1,10 +1,10 @@
 # 手順 2 : Azure Kubernetes Service (AKS) Private クラスターの構築
 
-この手順では、既存の Azure 仮想ネットワークに Azure Kubernetes Service(AKS) Private クラスターを構築します。
+この手順では、既存の Azure 仮想ネットワークに Azure Kubernetes Service (AKS) Private クラスターを構築します。
 
-なお現在、一般的な Azure Kubernetes Service(AKS) を構築する場合は [Azure Kubernetes Service (AKS) Automatic](https://learn.microsoft.com/ja-jp/azure/aks/intro-aks-automatic) が推奨されますが、今回の場合、これを使用すると手順が複雑になるので従来の方法を使用します。
+なお現在、一般的な Azure Kubernetes Service (AKS) を構築する場合は [Azure Kubernetes Service (AKS) Automatic](https://learn.microsoft.com/ja-jp/azure/aks/intro-aks-automatic) が推奨されますが、今回の場合、これを使用すると手順が複雑になるので従来の方法を使用します。
 
-また、この手順で構築される AKS クラスターは、デプロイされた仮想ネットワーク上にある Jumpbox 経由でないと操作が行えないので注意が必要です。
+また、この手順で構築される AKS クラスターは、デプロイされた仮想ネットワーク上にある Jump Box 経由でないと操作が行えないので注意が必要です。
 
 \[**手順**▶️\]
 
@@ -105,7 +105,7 @@
     |Kubernetes サービスのアドレス範囲 \*|`172.16.0.0/16`(※3)|
     |Kubernetes DNS サービスの IP アドレス \*|`172.16.0.10`(※4)|
     |DNS 名のプレフィックス \*|*既定で設定される名前*|
-    |Ciium データプレーンとネットワークポリシーエンジンを有効にする|チェックしない|
+    |Cilium データプレーンとネットワークポリシーエンジンを有効にする|チェックしない|
     |Network policy engine|\[**None**\]|
 
     ![](img/EN-AKS-networkSettings.png) 
@@ -127,7 +127,9 @@
 
 ## 次へ
 
-👉　[手順 3: JumpBox から AKS クラスターに接続し、アプリケーションをデプロイする](jp-ex03.md)
+👉 [手順 3: Jump Box から AKS クラスターに接続し、アプリケーションをデプロイする](jp-ex03.md)
+
+👈 [手順 1 : 既存の Azure 仮想ネットワークに AKS 用のサブネットを作成する](jp-ex01.md)
 
 ---
 
