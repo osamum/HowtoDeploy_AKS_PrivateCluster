@@ -125,7 +125,7 @@ Jump Box のターミナル画面から AKS Private クラスターに接続し�
 
 <br>
 
-👈 [手順 3: Jump Box から AKS クラスターに接続し、アプリケーションをデプロイする](jp-ex03.md)
+👈 [手順 2 : Azure Kubernetes Service (AKS) Private クラスターの構築](jp-ex02.md)
 
 ---
 

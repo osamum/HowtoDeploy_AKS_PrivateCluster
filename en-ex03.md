@@ -125,7 +125,7 @@ This guide used Azure CLI and kubectl from a terminal in the local Jump Box envi
 
 <br>
 
-👈 [Step 3: Connect to the AKS Cluster from the Jump Box and Deploy an Application](en-ex03.md)
+👈 [Step 2: Create an Azure Kubernetes Service (AKS) Private Cluster](en-ex02.md)
 
 ---
 

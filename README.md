@@ -12,7 +12,7 @@ Azure の仮想ネットワークのリソースにのみサービスを提供�
 
 # 概要
 
-オンプレミス環境から運用中のシステムを Microsoft Azure に移行する際、多くの場合、セキュリティの観点からインターネットに直接接続できない閉域化された環境での運用が求められます。Azure Kubernetes Service (AKS) は、マネージドな Kubernetes クラスターを提供するサービスであり、仮想ネットワーク内での閉域化された構成をサポートしています。
+オンプレミス環境から運用中のシステムを Microsoft Azure に移行する際、多くの場合、セキュリティの観点からインターネットに直接接続できない閉域化された環境での運用が求められます。Azure Kubernetes Service (AKS) Private クラスターは、マネージドな Kubernetes クラスターを提供するサービスであり、仮想ネットワーク内での閉域化された構成をサポートしています。
 
 この手順ではすでに [Azure 上に仮想ネットワークと Jump Box (踏み台サーバー) が構築されている](https://github.com/osamum/HowtoMake-Az-JumpBox-Env)ことを前提とし、その既存の仮想ネットワーク内に AKS クラスターを構築する方法を説明します。AKS クラスターは、仮想ネットワーク内のリソースにのみアクセス可能であり、インターネットからの直接アクセスは制限されます。
 
@@ -54,7 +54,7 @@ However, outbound internet access from the AKS cluster is permitted so that appl
 
 # Overview
 
-When migrating a production system from an on-premises environment to Microsoft Azure, security requirements often call for an isolated environment that cannot be accessed directly from the internet. Azure Kubernetes Service (AKS) is a managed Kubernetes service that supports private deployment within a virtual network.
+When migrating a production system from an on-premises environment to Microsoft Azure, security requirements often call for an isolated environment that cannot be accessed directly from the internet. Azure Kubernetes Service (AKS) Private Cluster is a managed Kubernetes service that supports private deployment within a virtual network.
 
 This guide assumes that [an Azure virtual network and a Jump Box have already been created](https://github.com/osamum/HowtoMake-Az-JumpBox-Env). It explains how to build an AKS cluster in that existing virtual network. The AKS cluster is accessible only to resources within the virtual network, and direct access from the internet is restricted.
 
