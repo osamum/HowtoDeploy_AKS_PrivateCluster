@@ -71,7 +71,7 @@ Follow these steps.
 
 4. Create the YAML file used to deploy the application.
    
-   Copy the contents of [assets/deployApp-aks-private.yaml](assets/deployApp-aks-private.yaml) from this repository (※), and save the file as `deploy.yaml` in any directory on the Jump Box.
+   Copy the contents of [assets/deployApp-aks-private.yaml](./assets/deployApp-aks-private.yaml) from this repository (※), and save the file as `deploy.yaml` in any directory on the Jump Box.
 
    Verify the following settings in the YAML file:
 

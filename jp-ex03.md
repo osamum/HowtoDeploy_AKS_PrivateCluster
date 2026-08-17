@@ -71,7 +71,7 @@ Jump Box のターミナル画面から AKS Private クラスターに接続し�
 
 4. アプリケーションをデプロイするための YAML ファイルを作成します。
    
-   このリポジトリの assets/[deployApp-aks-private.yaml](assets/deployApp-aks-private.yaml) の内容をコピーして (※)、Jump Box 上の任意のディレクトリに `deploy.yaml` という名前で保存します。
+   このリポジトリの assets/[deployApp-aks-private.yaml](./assets/deployApp-aks-private.yaml) の内容をコピーして (※)、Jump Box 上の任意のディレクトリに `deploy.yaml` という名前で保存します。
 
    その際に yaml 内の以下の点を確認してください:
 
